@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position: sticky; top: 0;z-index: 100;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Aarnav</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2 class="page-header" id="travel">Places You Must Visit</h2>
+        <center>
+            <div class="travel_maindiv">
+                <img src="cancun.jpeg" alt="">
+                <h4 class="text-capitalize"><kbd>Cancún, Mexico</kbd></h4>
+                <hr>
+                <h5 class="text-success">I had visited in December of 2019</h5>
+                <p class="text-muted">Cancún, a Mexican city on the Yucatán Peninsula bordering the Caribbean Sea, is
+                    known for its beaches, numerous resorts and nightlife. It's composed of 2 distinct areas: the more
+                    traditional downtown area, El Centro, and Zona Hotelera, a long, beachfront strip of high-rise
+                    hotels, nightclubs, shops and restaurants. Cancun is also a famed destination for students during
+                    universities' spring break period. </p>
+            </div>
+        </center>
+        <!-- Do  -->
+        <br><br>
+        <center>
+            <div class="travel_maindiv">
+                <img src="san fran.jpeg" alt="">
+                <h4 class="text-capitalize"><kbd>San Francisco, California</kbd></h4>
+                <hr>
+                <h5 class="text-success">I visit San Francisco quite often</h5>
+                <p class="text-muted">San Francisco, officially the City and County of San Francisco, is the commercial,
+                    financial, and cultural center of Northern California. The city proper is the fourth most populous
+                    city in California, with 808,437 residents, and the 17th most populous city in the United States as
+                    of 2022. </p>
+            </div>
+        </center>
+        <h2 class="page-header" id="movies">Review on the Movies</h2>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#elf">
+            <span class="glyphicon glyphicon-film"></span>Elf<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="elf" class="collapse">
+            <div class="movie_text">
+                <img src="elf.jpeg" class="img-responsive img-thumbnail">
+                <h5 class="text-success text-capitalize">Good Movie to watch
+                    <span class="gliphicon glyphicon-star"></span>
+                    <span class="gliphicon glyphicon-star"></span>
+                    <span class="gliphicon glyphicon-star"></span>
+                    <span class="gliphicon glyphicon-star"></span>
+                    <span class="gliphicon glyphicon-star"></span>
+                </h5>
+
+                <p>Elf is a 2003 American Christmas comedy film directed by Jon Favreau and written by David Berenbaum.
+                    It stars Will Ferrell as Buddy, a human raised by Santa's elves, who learns about his origins and
+                    heads to New York City to meet his biological father. James Caan, Zooey Deschanel, Mary Steenburgen,
+                    Edward Asner, and Bob Newhart appear in supporting roles.
+                </p>
+            </div>
+        </div>
+        <h2 class="page-header" id="books">Best books</h2>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+            <img src="percy.jpeg" class="img-responsive">
+            <hr>
+            <p>Percy Jackson & the Olympians is a series of six fantasy novels written by American author Rick Riordan.
+                The first book series in his Camp Half-Blood Chronicles, the novels are set in a world with the Greek
+                gods in the 21st century.</p>
+            <a href="https://www.amazon.com/Lightning-Thief-Percy-Jackson-Olympians/dp/0786838655/ref=sr_1_1?crid=1N4HLJJ4LD7KQ&keywords=percy+jackson+book+1&qid=1703716141&sprefix=percy+jack%2Caps%2C192&sr=8-1"
+                target="_blank">Buy it here!</a>
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+            <img src="frontdesk.webp" class="img-responsive">
+            <hr>
+            <p>Front Desk is a middle grade book written by Kelly Yang and published by Scholastic in 2018. Yang's debut
+                book is about ten-year-old Mia Tang and her family who, after a couple years struggling financially, are
+                hired to manage a motel. It is the first book in the 5-part series.</p>
+            <a href="https://www.amazon.com/Front-Desk-Kelly-Yang/dp/1338157795" target="_blank">Buy it here!</a>
+            <br>
+
+        </div>
+        <section id="contact">
+            <br>
+            <hr>
+            <br>
+            <br>
+            <h2 class="page-header">Contact</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203134.07158485742!2d-121.980903529685!3d37.29584794533814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1703716544524!5m2!1sen!2sus"
+                width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <hr>
+        </section>
+
+    </div>
+</body>
+
+</html>
